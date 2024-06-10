@@ -1,0 +1,3 @@
+host=localhost
+user=respaldos
+password=!+fdFm2zY!

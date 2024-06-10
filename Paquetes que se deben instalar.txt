@@ -1,0 +1,8 @@
+
+MYSQL
+	sudo pip install mysql-connector-python
+
+GOOGLE
+	sudo pip install google-auth
+	sudo pip install google-api-python-client
+

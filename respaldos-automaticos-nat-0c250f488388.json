@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "respaldos-automaticos-nat",
+  "private_key_id": "0c250f488388a61a1cacf7ec60b4b21f38da79c8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDEStkK9oJFqvGq\nvuFE7Ct9OokG65jjfXm37xp4Be6BYKIJQdmvl4x7lxeGuopirGxlLJttKs/uzPIp\nVVIWcYp+D5MkxpDrF2HV84HiCXf+jBKMJajh9n9sa/ggqWChgm8Vy4qEDTbiVo2h\nNUa1/Wf8deDLB4FLJ2UpPCw9xhh+epzsmx+ZDm//iQ3J7cWjaHrmxuaptWqZsGKx\nu9pE7TO8xxn6meoTOnM5Ji276yrstIpHjXPk8mkNuESBY34OPZg1vepYnhZq0wRK\nA1sXljioSLMakegiC87PkJ2VreWaBMmHGklT+7cuBePlEKtzTCI/yx5BNZy0/qm+\nuxGCzPWfAgMBAAECggEAGK+ZECnkREK1VdXfmr1g0sTzyq0Cc0mqbxlg6MtGLXsr\npaJkcBLNFhXwXX9EPBiXITo06cvCjrOzmMMkKbJpymTHCo72VrqAEVoocXbjYl3X\nT0zFKnXHnKkPcXwbrPQsaD9K0kSfLGPaN/XtSKHv2+4vMRlmhz8TF9Z7ceFh3zXv\nqFHyRc6XI5VfBlN0uRHlORWF41beMu/CXC6bPBd8zDFmor2a6T6lI27mRu5DYvZN\nhYcHlmRfgXjMtyh8Xi7HUIGEvcc3krqfTRJEeXvkts827MKjUCjymVBNUehfMuVW\nd8m5ovRKGHxOg2qpCc3BkFzBr7zXrtIRA1B9ET9S4QKBgQD4/yPof+Ky+/zifuvq\nq7vtil1q3iOy81oEOmFKqOjUwGZXLWIFzFG32jPC4GKMi6RiL2OuvqJTZnkybLh0\nxdd9d98H7are78f122Xjj5/mYuldg2LRPVIiYuflrQu+eisb1nR1mXOhJ2B4aArz\nijPY6f+Xr2RFjqeUBPFNSdPhhwKBgQDJ0DgVAGuBzqq2s5qT8m/J9eO1Czg3MJ6j\nLHfWh553GUIMKXXWRf23hFeu8oBoqy7UTHOox0Tn7+sT0kkmBiR1Vgp0XIoQ96bK\n2qgaiz5AS9XOmk22dQYe57FFecHcufSYuGgosFiX1Z7N1ZH5H3zxHq8SowI/XjHR\nSazuOXUxKQKBgC2/atCH1pX9+EuA+EVogiG1n05IPBTf4zUNqNx3xjd4lhUEUJMy\nI/18iLAQW+roqS4k+NKdUeOy2yeplAZYZyw1PvQM9az6Lyn7wm+Z7s38dFXrEtfQ\nxWtt8p9fON4pQgxeTY1hwT3lpzLYItL2HGqJK52p6ulguWdXtSH3I4e3AoGADZLr\nsr3sfTahVNiPtRPBYRwgzLSMe2nRwbfj95H3npscTiUbv+XFQuqr2yCEcoXRCIZ7\n4QZGJDOG5DZopR4Upa+71EfFIY8GsO40EFT9QuXW46aNQ5BrcPi0e6/M0kPPp9X/\na30w+EVuAPo0b0Um6jDeJarBI/H599G0x/ElaMECgYBAMroVhtaL+DJTSUuRD9EC\nW/v5mYft2UJEpeEiX3LqbshQytNUP1l3jim2pK2ztVz59qT107z5u0Z04eVlDSVi\naMyS/GcT761SH7ujqMA3TmUZ1bY2kdQaFcyt32iK847KcO8Lujgny5/Vb+Xk1sbp\n8KkljZ2TaI3I1N6zFqWQ4Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "respaldos-db-nat@respaldos-automaticos-nat.iam.gserviceaccount.com",
+  "client_id": "109036307088747385531",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/respaldos-db-nat%40respaldos-automaticos-nat.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
