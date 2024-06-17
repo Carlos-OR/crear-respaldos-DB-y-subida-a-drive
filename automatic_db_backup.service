@@ -1,0 +1,15 @@
+[Unit]
+Description=Lee todas las bases de datos en el servidor mysql y crea un .zip de cada uno y lo suve a la carpeta de drive especificada.
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /srv/repaldos-automaticos/respaldos_automaticos.py
+WorkingDirectory=/srv/repaldos-automaticos
+User=root
+Group=root
+Restart=always
+RestartSec=5
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=multi-user.target

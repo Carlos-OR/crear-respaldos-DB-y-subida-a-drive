@@ -1,4 +1,6 @@
 
+Para no tener problema al montar el servicio primero se debe verificar que Python esté disponible y compilar la aplicación antes normalmente sin iniciar el servicio para verificar que el todo funcione correcto
+
 MYSQL
 	sudo pip install mysql-connector-python
 

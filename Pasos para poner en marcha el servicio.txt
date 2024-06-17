@@ -1,0 +1,24 @@
+Recargar los servicios de systemd: Después de crear o modificar un archivo de servicio, recarga la configuración de systemd para que reconozca los cambios:
+sudo systemctl daemon-reload
+
+Habilitar el servicio: Esto asegura que el servicio se inicie automáticamente al arrancar el sistema:
+sudo systemctl enable automatic_db_backup.service
+
+Iniciar el servicio: Inicia el servicio manualmente por primera vez:
+sudo systemctl start automatic_db_backup.service
+
+Verificar el estado del servicio: Puedes verificar que tu servicio está funcionando correctamente usando:
+sudo systemctl status automatic_db_backup.service
+
+Esto te dará información sobre si el servicio está activo, errores, y otros detalles.
+
+Mantenimiento y supervisión
+
+Ver logs: Los logs del servicio se pueden revisar con:
+journalctl -u automatic_db_backup.service
+
+Detener el servicio: Si necesitas detener el servicio:
+sudo systemctl stop automatic_db_backup.service
+
+Reiniciar el servicio: Si necesitas reiniciar el servicio (por ejemplo, después de actualizar el código):
+sudo systemctl restart automatic_db_backup.service
