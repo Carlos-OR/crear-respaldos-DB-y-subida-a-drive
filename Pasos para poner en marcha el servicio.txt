@@ -1,3 +1,6 @@
+Cómo crear el archivo para el servicio:
+sudo nano /etc/systemd/system/automatic_db_backup.service
+
 Recargar los servicios de systemd: Después de crear o modificar un archivo de servicio, recarga la configuración de systemd para que reconozca los cambios:
 sudo systemctl daemon-reload
 
