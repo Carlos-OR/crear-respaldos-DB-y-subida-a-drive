@@ -48,7 +48,10 @@ def backup_databases(host, user, password):
                     f"--user={user}",
                     f"--password={password}" if password else "--password=",
                     database_name,
-                    f"--result-file={backup_filename}"
+                    f"--result-file={backup_filename}",
+                    "--default-character-set=utf8mb4",
+                    "--collation=utf8mb4_general_ci",
+                    "--skip-set-charset"  # Evitar agregar SET NAMES con un collation incompatible
                 ]
                 result = subprocess.run(backup_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 if result.returncode == 0:
